@@ -27,7 +27,7 @@ function drawPieSlice(
   ctx.closePath();
   ctx.fill();
 }
-
+// Тут меняешь данные
 var myVinyls = {
   "Classical music": 12,
   "Alternative rock": 14,
