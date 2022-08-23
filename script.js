@@ -129,9 +129,13 @@ var Piechart = function (options) {
 var myLegend = document.getElementById("myLegend");
 
 var myDougnutChart = new Piechart({
+//   Переменная, котороя идет с index.html
   canvas: myCanvas,
+//   Переменная, в которой данные по диаграмме
   data: myVinyls,
+//   Цвет, которым обозначаються 
   colors: ["#fde23e", "#f16e23", "#57d9ff", "#937e88"],
+//   Куда выводиться список под диаграммой(не менять)
   legend: myLegend,
 });
 myDougnutChart.draw();
